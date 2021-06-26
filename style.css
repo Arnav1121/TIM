@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 
 .profile {
@@ -80,28 +81,52 @@ p {
 .menu{
  list-style:none; 
 font-family: cursive;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+    position: fixed;
+    top: 0px;
     cursor: pointer;
     z-index: 10;
-    
+    width:100%;
+    background:white;
+    margin-top:0px;
 }
 .links{
-    float:left;
     color: lightred;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: 'Zen Dots', cursive;
     font-size: 20px;
+    display:inline;
 }
 .links:hover{
-    background-color: white;
+font-size:25px;
+    text-decoration:underline;
 }
-
-
+a{
+text-decoration:none;
+color:lightblue;
+text-shadow: 2px 2px grey;
+}
+#writings a{
+text-decoration:underline !important;
+color:blue !important;
+text-shadow:none !important;
+}
+.article:hover{
+color:hotpink;
+}
+#contact iframe{
+width:100%;
+}
+.contact_1 h3{
+display:inline;
+}
+.contact_1 a{
+color:white;
+text-shadow:none;
+}
+#contact{
+background:firebrick;
+}
 
 
 
